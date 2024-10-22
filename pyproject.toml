@@ -1,0 +1,50 @@
+[project]
+name = "mastering-llms"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "RutamBhagat", email = "rutambhagat@gmail.com"},
+]
+dependencies = [
+    "python-dotenv",
+    "jupyterlab",
+    "ipywidgets",
+    "requests",
+    "numpy",
+    "pandas",
+    "scipy",
+    "scikit-learn",
+    "matplotlib",
+    "gensim",
+    "torch",
+    "transformers",
+    "accelerate",
+    "sentencepiece",
+    "bitsandbytes",
+    "tqdm",
+    "openai",
+    "gradio",
+    "langchain",
+    "tiktoken",
+    "faiss-cpu",
+    "langchain-openai",
+    "langchain-experimental",
+    "langchain-chroma",
+    "langchain[docarray]",
+    "datasets",
+    "google-generativeai",
+    "anthropic",
+    "unstructured",
+    "chromadb",
+    "plotly",
+    "jupyter-dash",
+    "beautifulsoup4",
+    "pydub",
+]
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
