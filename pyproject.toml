@@ -40,6 +40,7 @@ dependencies = [
     "jupyter-dash",
     "beautifulsoup4",
     "pydub",
+    "selenium>=4.25.0",
 ]
 requires-python = "==3.12.*"
 readme = "README.md"
