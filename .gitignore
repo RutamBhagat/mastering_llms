@@ -172,3 +172,4 @@ products_vectorstore/
 
 .venv
 .pdm-python
+*.pem
