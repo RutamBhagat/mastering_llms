@@ -5,7 +5,7 @@
 groups = ["default"]
 strategy = ["inherit_metadata"]
 lock_version = "4.5.0"
-content_hash = "sha256:f3a757c1d68ae6b61365b3d74b15a3356a75c93465b0274eed50a2b6c6384fc4"
+content_hash = "sha256:3a65f48cf86ebff246c053d813ade841103cf50277f3bede9b0a5ef8cad72e99"
 
 [[metadata.targets]]
 requires_python = "==3.12.*"
@@ -1534,6 +1534,15 @@ dependencies = [
 files = [
     {file = "ipykernel-6.29.5-py3-none-any.whl", hash = "sha256:afdb66ba5aa354b09b91379bac28ae4afebbb30e8b39510c9690afb7a10421b5"},
     {file = "ipykernel-6.29.5.tar.gz", hash = "sha256:f093a22c4a40f8828f8e330a9c297cb93dcab13bd9678ded6de8e5cf81c56215"},
+]
+
+[[package]]
+name = "ipynb-py-convert"
+version = "0.4.6"
+summary = "Convert .py files runnable in VSCode/Python or Atom/Hydrogen to jupyter .ipynb notebooks and vice versa"
+groups = ["default"]
+files = [
+    {file = "ipynb-py-convert-0.4.6.tar.gz", hash = "sha256:06c09644f85949939fa749a00fb7f398a0bfcad0e34320ca6666e0cb44b7ea74"},
 ]
 
 [[package]]
